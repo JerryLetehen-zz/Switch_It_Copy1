@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "244415804568",
+    "firebase_url": "https://switchitfree.firebaseio.com",
+    "project_id": "switchitfree",
+    "storage_bucket": "switchitfree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244415804568:android:68f9fb6f0633fa8c",
+        "android_client_info": {
+          "package_name": "com.jprod.jerryletehen.switch_it_free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244415804568-rrpavsj61rlb8979fk09t3t5oo8k934a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jprod.jerryletehen.switch_it_free",
+            "certificate_hash": "55a7d26de13d775f139ba1ead596a79aed5b8ad7"
+          }
+        },
+        {
+          "client_id": "244415804568-8hs58748kia6jgtpua3fa27bjb95opkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jaZDmqCUSyfHwOHa5pHD-qMDSRYyzBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244415804568-8hs58748kia6jgtpua3fa27bjb95opkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

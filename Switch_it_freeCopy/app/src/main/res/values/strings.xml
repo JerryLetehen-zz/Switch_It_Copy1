@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Switch it</string>
+    <string name="main_text">Switch it</string>
+    <string name="play_button">PLAY</string>
+    <string name="back_button">BACK</string>
+    <string name="next_button">NEXT</string>
+    <string name="select_difficulty">Select difficulty</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="switch_it">Switch all on</string>
+    <string name="left">Left</string>
+    <string name="defaultTimes" translatable="false">0</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="choose_level">Choose level</string>
+    <string name="level_01" translatable="false">1</string>
+    <string name="level_02" translatable="false">2</string>
+    <string name="level_03" translatable="false">3</string>
+    <string name="level_04" translatable="false">4</string>
+    <string name="level_05" translatable="false">5</string>
+    <string name="level_06" translatable="false">6</string>
+    <string name="level_07" translatable="false">7</string>
+    <string name="level_08" translatable="false">8</string>
+    <string name="level_09" translatable="false">9</string>
+    <string name="level_10" translatable="false">10</string>
+    <string name="level_11" translatable="false">11</string>
+    <string name="level_12" translatable="false">12</string>
+    <string name="level_13" translatable="false">13</string>
+    <string name="level_14" translatable="false">14</string>
+    <string name="level_15" translatable="false">15</string>
+    <string name="level_16" translatable="false">16</string>
+    <string name="level_17" translatable="false">17</string>
+    <string name="level_18" translatable="false">18</string>
+    <string name="level_19" translatable="false">19</string>
+    <string name="level_20" translatable="false">20</string>
+    <string name="level_21" translatable="false">21</string>
+    <string name="level_22" translatable="false">22</string>
+    <string name="level_23" translatable="false">23</string>
+    <string name="level_24" translatable="false">24</string>
+    <string name="level_25" translatable="false">25</string>
+    <string name="level_26" translatable="false">26</string>
+    <string name="level_27" translatable="false">27</string>
+    <string name="level_28" translatable="false">28</string>
+    <string name="level_29" translatable="false">29</string>
+    <string name="level_30" translatable="false">30</string>
+    <string name="level_31" translatable="false">31</string>
+    <string name="level_32" translatable="false">32</string>
+    <string name="level_33" translatable="false">33</string>
+    <string name="level_34" translatable="false">34</string>
+    <string name="level_35" translatable="false">35</string>
+    <string name="level_36" translatable="false">36</string>
+    <string name="level_37" translatable="false">37</string>
+    <string name="level_38" translatable="false">38</string>
+    <string name="level_39" translatable="false">39</string>
+    <string name="level_40" translatable="false">40</string>
+    <string name="level_41" translatable="false">41</string>
+    <string name="level_42" translatable="false">42</string>
+    <string name="level_43" translatable="false">43</string>
+    <string name="level_44" translatable="false">44</string>
+    <string name="level_45" translatable="false">45</string>
+    <string name="level_46" translatable="false">46</string>
+    <string name="level_47" translatable="false">47</string>
+    <string name="level_48" translatable="false">48</string>
+    <string name="level_49" translatable="false">49</string>
+    <string name="level_50" translatable="false">50</string>
+    <string name="text_of_level_01">Level 1</string>
+    <string name="text_of_level_02">Level 2</string>
+    <string name="text_of_level_03">Level 3</string>
+    <string name="text_of_level_04">Level 4</string>
+    <string name="text_of_level_05">Level 5</string>
+    <string name="text_of_level_06">Level 6</string>
+    <string name="text_of_level_07">Level 7</string>
+    <string name="text_of_level_08">Level 8</string>
+    <string name="text_of_level_09">Level 9</string>
+    <string name="text_of_level_10">Level 10</string>
+    <string name="text_of_level_11">Level 11</string>
+    <string name="text_of_level_12">Level 12</string>
+    <string name="text_of_level_13">Level 13</string>
+    <string name="text_of_level_14">Level 14</string>
+    <string name="text_of_level_15">Level 15</string>
+    <string name="text_of_level_16">Level 16</string>
+    <string name="text_of_level_17">Level 17</string>
+    <string name="text_of_level_18">Level 18</string>
+    <string name="text_of_level_19">Level 19</string>
+    <string name="text_of_level_20">Level 20</string>
+    <string name="text_of_level_21">Level 21</string>
+    <string name="text_of_level_22">Level 22</string>
+    <string name="text_of_level_23">Level 23</string>
+    <string name="text_of_level_24">Level 24</string>
+    <string name="text_of_level_25">Level 25</string>
+    <string name="text_of_level_26">Level 26</string>
+    <string name="text_of_level_27">Level 27</string>
+    <string name="text_of_level_28">Level 28</string>
+    <string name="text_of_level_29">Level 29</string>
+    <string name="text_of_level_30">Level 30</string>
+    <string name="text_of_level_31">Level 31</string>
+    <string name="text_of_level_32">Level 32</string>
+    <string name="text_of_level_33">Level 33</string>
+    <string name="text_of_level_34">Level 34</string>
+    <string name="text_of_level_35">Level 35</string>
+    <string name="text_of_level_36">Level 36</string>
+    <string name="text_of_level_37">Level 37</string>
+    <string name="text_of_level_38">Level 38</string>
+    <string name="text_of_level_39">Level 39</string>
+    <string name="text_of_level_40">Level 40</string>
+    <string name="text_of_level_41">Level 41</string>
+    <string name="text_of_level_42">Level 42</string>
+    <string name="text_of_level_43">Level 43</string>
+    <string name="text_of_level_44">Level 44</string>
+    <string name="text_of_level_45">Level 45</string>
+    <string name="text_of_level_46">Level 46</string>
+    <string name="text_of_level_47">Level 47</string>
+    <string name="text_of_level_48">Level 48</string>
+    <string name="text_of_level_49">Level 49</string>
+    <string name="text_of_level_50">Level 50</string>
+    <string name="do_not_complete">Not completed</string>
+    <string name="you_have_not_turns">You have no moves</string>
+    <string name="again">Again</string>
+    <string name="cancel">Cancel</string>
+    <string name="level_easy">EASY</string>
+    <string name="level_hard">HARD</string>
+    <string name="level_medium">MEDIUM</string>
+    <string name="reset_button">RESET</string>
+    <string name="reset_progress">Reset the progress</string>
+    <string name="reset_confirmation">Are you sure to reset your progress?</string>
+    <string name="reset">RESET</string>
+    <string name="complete">Complete</string>
+    <string name="didnt_solved_previous">Did not complete previous</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-5134434367178362/9854051337</string>
+    <string name="buy">BUY</string>
+    <string name="buy_hard">Open the hard level and disable ads?</string>
+</resources>

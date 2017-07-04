@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/dark_bg">
+
+    <Button
+        android:text="@string/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <!--<Button
+        android:text="ADMIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />-->
+
+    <TextView
+        android:text="@string/select_difficulty"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:id="@+id/select_difficulty"
+        android:textSize="30sp"
+        android:textColor="@color/default_color_text"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="@string/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_difficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/easy"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"/>
+
+    <Button
+        android:text="@string/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/hard"
+        android:layout_below="@+id/medium"
+        android:layout_alignStart="@+id/easy"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"/>
+
+    <Button
+        android:text="@string/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/medium"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_below="@+id/easy"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

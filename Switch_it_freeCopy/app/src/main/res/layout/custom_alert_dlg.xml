@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/disabled">
+
+    <TextView
+        android:text="@string/do_not_complete"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/do_not_complete_text"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="0dp" />
+
+    <TextView
+        android:text="@string/you_have_not_turns"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/you_have_not_turns_text"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:text="@string/cancel"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/default_color_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_cancel"
+            android:layout_weight="1"
+            android:background="@color/play_button"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:text="@string/again"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/default_color_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_again"
+            android:layout_weight="1"
+            android:background="@color/play_button"
+            android:paddingStart="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/dark_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/switch_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_it"
+            android:textSize="40sp"
+            android:textColor="@color/default_color_text"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch1"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"
+                    android:layout_marginEnd="15dp"/>
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch2"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch3"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"
+                    android:layout_marginEnd="15dp"/>
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch4"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch5"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"
+                    android:layout_marginEnd="15dp"/>
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch6"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch7"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"
+                    android:layout_marginEnd="15dp"/>
+
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch8"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_width="wrap_content"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp">
+
+
+                <TextView
+                    android:text="@string/left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_text"
+                    android:textSize="30sp"
+                    android:textColor="@color/default_color_text"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:text="@string/defaultTimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timesPicker"
+                    android:textSize="30sp"
+                    android:textColor="@color/default_color_text"
+                    android:textAlignment="center"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <Button
+        android:text="@string/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:text="@string/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:text="@string/level_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/level_10"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="20sp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RelativeOverlap" />
+
+</FrameLayout>

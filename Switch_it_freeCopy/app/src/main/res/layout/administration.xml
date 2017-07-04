@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <Button
+        android:text="@string/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:textAlignment="center"
+        android:textColor="@color/default_color_text"
+        android:textSize="35sp"
+        android:background="@color/play_button"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="494dp">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <TextView
+                android:text="Solve"
+                android:textColor="@color/default_color_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:text="easy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="hard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_hard"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="solve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:textSize="8sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_1_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_2_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_3_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_4_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_5_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_6_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_7_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_8_easy"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="8sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_1_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_2_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_3_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_4_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_5_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_6_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_7_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/solve_8_medium"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:text="Unsolve"
+                android:textColor="@color/default_color_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="easy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="hard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_hard"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="unsolve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_weight="1"
+                android:textSize="8sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_1_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_2_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_3_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_4_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_5_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_6_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_7_easy"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_8_easy"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="8sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_1_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_2_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_3_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_4_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_5_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_6_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_7_medium"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/unsolve_8_medium"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+    </ScrollView>
+</FrameLayout>
+
+
+
+
